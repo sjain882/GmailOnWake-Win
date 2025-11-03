@@ -81,7 +81,7 @@ class Program
         Console.WriteLine("Hi");
         
         // Format subject string
-        string formattedTime = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+        string formattedTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
         string subject = $"{WakeSubjectPrefix} - {formattedTime}";
         
         // Construct email message
