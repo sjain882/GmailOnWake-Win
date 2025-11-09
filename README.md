@@ -54,3 +54,7 @@ Full details on this program and how to set it up can be found in this repo: htt
 First, configure the path to the built `GmailOnWake-Win.exe` in `GmailOnWake-Win-Launcher.dll.config`.
 
 Then, add `GmailOnWake-Win-Launcher.exe` to Resume tasks instead of Suspend tasks: https://github.com/sjain882/Ethernet-ForWakeOnLanOnly-Win?tab=readme-ov-file#how-to-use
+
+# Use case
+
+My father often wakes up the HTPC to watch streams, but forgets to close them, which prevents the PC from sleeping. Additionally, other programs like OBS and/or VPN could also keep the computer awake. Its important for me to remotely check the system and sleep it after he has used it, to prevent wasting energy.
